@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style/beneficiario.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+
+    <title>Cadastro de associado</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h2>Novo cadastro</h2>
+        </section>
+
+        <form id="form" class="form">
+            <span class="error-message"></span>
+            <div class="form-content">
+                <label for="nome">Nome do beneficiário</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome">
+            </div>
+
+            <div class="form-content">
+                <label for="documento">Documento</label>
+                <input type="text" id="documento" name="documento" placeholder="Digite o CPF">
+            </div>
+
+            <div class="form-content">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite o email">
+    
+            </div>
+
+            <div class="form-content">
+                <label for="cep">Cep</label>
+                <input type="cep" id="cep" name="cep" placeholder="Digite o cep">
+            </div>
+
+            <div class="form-content">
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" name="rua" placeholder="Digite a rua">
+            </div>
+
+            <div class="form-content">
+                <label for="numero">Número</label>
+                <input type="number" id="numero" name="numero" placeholder="Digite o número">
+        
+            </div>
+
+            <div class="form-content">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" placeholder="Digite o bairro">
+        
+            </div>
+
+            <div class="form-content">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade">
+        
+            </div>
+            
+            <div class="form-content">
+                <label for="estado">Estado</label>
+                <input type="text" id="estado" name="estado" placeholder="Digite o estado">
+        
+            </div>
+
+            <div class="form-content">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite a senha">
+            </div>
+
+            <div class="form-content">
+                <label for="senhaconfirmacao">Confirmacao de senha</label>
+                <input type="password" id="senhaconfirmacao" name="senhaconfirmacao" placeholder="Confirmacao de senha">
+
+            </div>
+            <button id="btnCadastro" type="">Cadastrar</button>
+
+        </form>
+    </div>
+    <script src="../public/js/beneficiario.js"></script>
+    
+</body>
+</html>
